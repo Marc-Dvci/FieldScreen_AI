@@ -31,7 +31,7 @@ PROJECT_DIR = Path(__file__).parent.resolve()
 # Each entry: (url, destination_path, description, size_hint)
 DIRECT_DOWNLOADS = [
     (
-        "https://huggingface.co/unsloth/medgemma-4b-it-GGUF/resolve/main/"
+        "https://huggingface.co/unsloth/medgemma-1.5-4b-it-GGUF/resolve/main/"
         "medgemma-1.5-4b-it-Q4_K_M.gguf",
         "Models/MedGemma/medgemma-1.5-4b-it-Q4_K_M.gguf",
         "MedGemma 1.5 4B-It (Q4_K_M quantization)",
