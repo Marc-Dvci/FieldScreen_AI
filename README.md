@@ -14,7 +14,7 @@
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Marc-Dvci/FieldScreen_ai.git
+git clone https://github.com/Marc-Dvci/FieldScreen_AI.git
 cd fieldscreen-ai
 
 # 2. Download models (~8 GB total)
