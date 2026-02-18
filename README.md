@@ -92,11 +92,11 @@ The `download_models.py` script automates downloading. Or download manually:
 
 | Model | Source | Size |
 |-------|--------|------|
-| MedGemma GGUF | [unsloth/medgemma-4b-it-GGUF](https://huggingface.co/unsloth/medgemma-4b-it-GGUF) | 2.5 GB |
+| MedGemma GGUF | [unsloth/medgemma-1.5-4b-it-GGUF-Q4_K_M](https://huggingface.co/unsloth/medgemma-1.5-4b-it-GGUF) | 2.5 GB |
 | Vision Projector | [unsloth/gemma-3-4b-it-GGUF](https://huggingface.co/unsloth/gemma-3-4b-it-GGUF) (mmproj-BF16.gguf) | 850 MB |
 | HeAR | [google/hear-pytorch](https://huggingface.co/google/hear-pytorch) | 1.2 GB |
 | MedASR | [google/medasr](https://huggingface.co/google/medasr) | 420 MB |
-| TranslateGemma | [google/translategemma-4b-it-GGUF](https://huggingface.co/google/translategemma-4b-it-GGUF) | 2.5 GB |
+| TranslateGemma | [google/translategemma-4b-it-GGUF-Q4_K_M](https://huggingface.co/google/translategemma-4b-it-GGUF) | 2.5 GB |
 | llama-server | [llama.cpp releases](https://github.com/ggerganov/llama.cpp/releases) | 1.8 GB |
 
 The fine-tuned **LoRA adapter** (`image-lora.gguf`, 114 MB) is included in this repository under `Models/MedGemma/` via Git LFS.
