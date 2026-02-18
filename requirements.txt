@@ -1,0 +1,14 @@
+# FieldScreen AI — Python dependencies
+# NOTE: torch and transformers are installed separately by SETUP.bat
+#   - torch: from PyTorch CUDA index (not PyPI)
+#   - transformers: from GitHub source (MedASR needs >= 5.0)
+
+gradio>=5.0,<6.0
+Pillow
+requests
+numpy
+pandas
+librosa
+soundfile
+scikit-learn
+huggingface_hub

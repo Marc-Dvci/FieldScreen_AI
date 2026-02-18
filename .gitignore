@@ -1,0 +1,58 @@
+# FieldScreen AI — .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+*.txt.tmp
+
+# Large model weights (downloaded by download_models.py)
+Models/MedGemma/*.gguf
+Models/HeAR/model.safetensors
+Models/HeAR/pytorch_model.bin
+Models/MedASR/model.safetensors
+Models/TranslateGemma/*.gguf
+
+# Re-include the LoRA adapter (tracked by Git LFS)
+!Models/MedGemma/image-lora.gguf
+
+# Re-include small HeAR artifacts
+!Models/HeAR/config.json
+!Models/HeAR/tb_cough_classifier.npz
+
+# Binaries (user downloads)
+bin/
+
+# Datasets (too large for repo)
+Dataset*/
+training_data/cough_data/
+training_data/data/
+training_data/eval_dataset/
+training_data/lora_output/checkpoint-*/
+
+# Secrets
+hf_token.txt
+
+# Temp files
+*.tmp
