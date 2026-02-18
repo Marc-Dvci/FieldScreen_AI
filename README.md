@@ -127,17 +127,15 @@ The fine-tuned **LoRA adapter** (`image-lora.gguf`, 114 MB) is included in this 
 │   ├── evaluation_report_gguf.txt    # Full evaluation output
 │   └── evaluation_results_gguf.json  # Per-image results
 │
-├── Models/                           # Model directory (mostly downloaded)
-│   ├── HeAR/
-│   │   ├── config.json               # ViT-L config (included)
-│   │   └── tb_cough_classifier.npz   # Trained classifier (included, 3 KB)
-│   ├── MedGemma/
-│   │   └── image-lora.gguf           # LoRA adapter (Git LFS, 114 MB)
-│   ├── MedASR/                       # Downloaded by setup
-│   └── TranslateGemma/               # Downloaded by setup
-│
-└── docs/
-    └── ROADMAP.md                    # Development roadmap
+└── Models/                           # Model directory (mostly downloaded)
+    ├── HeAR/
+    │   ├── config.json               # ViT-L config (included)
+    │   └── tb_cough_classifier.npz   # Trained classifier (included, 3 KB)
+    ├── MedGemma/
+    │   └── image-lora.gguf           # LoRA adapter (Git LFS, 114 MB)
+    ├── MedASR/                       # Downloaded by setup
+    └── TranslateGemma/               # Downloaded by setup
+
 ```
 
 ---
