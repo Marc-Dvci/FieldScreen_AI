@@ -62,7 +62,7 @@ Plus a **WHO-aligned 4-symptom scoring** module for structured clinical assessme
   MedGemma 4B (GGUF + LoRA) → Radiology Assessment
                            │
                            ▼
-  Combined Risk Engine (imaging 50-60% + symptoms 30-40% + cough 20%)
+  Combined Risk Engine (imaging 50% + symptoms 30% + cough 20%)
                            │
                            ▼
   TranslateGemma → Report in 15 languages
