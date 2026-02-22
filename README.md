@@ -148,7 +148,7 @@ The fine-tuned **LoRA adapter** (`image-lora.gguf`, 114 MB) is included in this 
 
 3. **5-Pass Majority Voting** — Each X-ray is classified 5 times with different sampling; majority vote ensures robust predictions.
 
-4. **Multi-Model Orchestration** — Four models coexist on 12 GB VRAM via lazy loading, CPU offloading, and thread-safe managers.
+4. **Multi-Model Orchestration** — Four models coexist on 4 GB VRAM and 8 GB RAM via lazy loading, CPU offloading, and thread-safe managers.
 
 5. **HeAR Cough Classifier** — Trained on 2,150 Coswara cough recordings; see [HEAR_TRAINING_REPORT.md](training/HEAR_TRAINING_REPORT.md) for details.
 
