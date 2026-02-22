@@ -25,7 +25,7 @@ SETUP.bat          # first time only: creates venv + installs deps
 START_APP.bat      # launches the app on http://127.0.0.1:7860
 ```
 
-> **Hardware**: NVIDIA GPU with ≥8 GB VRAM (e.g. RTX 3060), 16 GB RAM, Windows 10/11.
+> **Hardware**: NVIDIA GPU with ≥4 GB VRAM (e.g. GTX 1650), 8 GB RAM, Windows 10/11.
 > No internet required after initial setup.
 
 ---
