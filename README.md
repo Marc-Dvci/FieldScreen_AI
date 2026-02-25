@@ -32,7 +32,7 @@ START_APP.bat      # launches the app on http://127.0.0.1:7860
 
 ## What is FieldScreen AI?
 
-FieldScreen AI is a fully offline TB screening tool that integrates **four Google Health AI Developer Foundations (HAI-DEF) models** into a single clinical workflow:
+FieldScreen AI is a fully offline TB screening tool that integrates **three Google Health AI Developer Foundations (HAI-DEF) models** into a single clinical workflow:
 
 | Model | Role | Runs on |
 |-------|------|---------|
